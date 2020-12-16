@@ -1,0 +1,69 @@
+/* Desktop layout*/
+body{
+  background-color:black;
+  color:white;
+}
+header{
+        background-image: url(branson.jpg);
+        background-size:cover;
+        height:400px;
+}
+img{
+  width:400px;
+}
+.flex-container{
+  display:flex;
+  flex-direction:row;
+}
+.column1{
+  background-color: #000080;
+  width:550px;
+  padding-right:15px;
+}
+.column2{
+  padding-right:15px;
+  padding-left:15px;
+  background-color:#2f4f4f;
+}
+.column3{
+  padding-left:15px;
+  background-color:#006400;
+}
+footer{
+  font-size:1.5em;
+  height:50px;
+  vertical-align: center;
+}
+/* Mobile layout */
+@media (max-width:480px) {
+  body{
+    font-size:1.5em;
+  }
+  .flex-container{
+    flex-direction:column;
+  }
+  .column3{
+    display:none;
+  }
+  .column2{
+    display:none;
+  }
+  img{
+    width:300px;
+  }
+  header{
+    width:600px;
+  }
+}
+/* Tablet layout*/
+@media (max-width:1000px){
+  body{
+    font-size:2em;
+  }
+  .column3{
+    display:none;
+  }
+  header{
+    height:500px;
+  }
+}

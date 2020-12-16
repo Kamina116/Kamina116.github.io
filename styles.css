@@ -1,0 +1,104 @@
+/*Author:Tristen Howard
+  Date:12/15/20
+  Filetype:styles.css
+*/
+/*font-family: 'Cormorant',serif;
+  font-family: 'Roboto Slab', serif;*/
+body{
+  background-color: #800000;
+  margin:0px;
+  padding:0px;
+}
+header{
+  border-bottom:5px solid red; /*separates my header and footer from the body*/
+}
+header,footer{
+  background-color:white;
+
+}
+footer {
+    border-top:5px solid red;
+    padding-bottom:75px;
+}
+.button{/*cool link style to make it stand out*/
+  background-color:#0000FF;
+  color:white;
+  padding:10px 10px 10px 10px
+}
+a:hover.button{
+  background-color:#000080;
+}
+.link{
+  color:#663399;
+  font-weight:bold;
+}
+a,a:visited{ /* a nice color and easier to read*/
+  text-decoration:none;
+  /*color:white;*/
+  font-weight:bold;
+}
+a:hover{
+  background-color:#87CEEB;
+}
+img{
+  width:100%;
+}
+#me{ /* I wanted my picture to resemble the profile picture for my blog site*/
+  width:15%;
+  float:left;
+  border-radius:100px;
+  padding-top:10px;
+}
+h1,h2{
+  font-family:'Roboto Slab', serif; /*Good header font*/
+  font-variant:small-caps;
+  font-size:2em;
+  text-align: center;
+}
+h2{
+  color:#F0F8FF;
+}
+p{
+  color:#F0F8FF;
+  font-family: 'Cormorant',serif;/*Good paragraph font*/
+  font-size:1.3em;
+  text-align:center;
+}
+div{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+  justify-content: center;
+}
+#Jim{
+  width:400px;
+  padding-left:15px;
+  align-self:center;
+}
+#blog{
+  width:400px;
+  padding-right:15px;
+  padding-left:15px;
+  padding-bottom:15px;
+}
+#travel{
+  width:500px;
+ padding-right:15px;
+ padding-left:15px;
+}
+#game{
+  width:400px;
+  padding-right:15px;
+  padding-left:15px;
+}
+#about{
+  width:450px;
+  padding-left:15px;
+  align-self:center;
+}
+ul{
+    list-style-type:none;
+}
+.paragraph{
+  color:black;
+}
